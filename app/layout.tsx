@@ -1,38 +1,37 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import type { Metadata } from 'next'
+import { Playfair_Display, Inter } from 'next/font/google'
+import './globals.css'
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+const playfair = Playfair_Display({
+  subsets: ['latin'],
+  weight: ['400', '600', '700'],
+  variable: '--font-playfair',
+  display: 'swap',
+})
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600'],
+  variable: '--font-inter',
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   title: 'Serigne Bada Kemane — Influenceur Sénégalais',
-  description: 'Découvrez l\'univers de Serigne Bada Kemane, influenceur sénégalais. Boutique en ligne, vidéos TikTok et bien plus.',
+  description: "Découvrez l'univers de Serigne Bada Kemane, influenceur sénégalais. Boutique en ligne, vidéos TikTok et bien plus.",
   openGraph: {
     title: 'Serigne Bada Kemane',
     description: 'Influenceur sénégalais — Boutique & Contenus',
     type: 'website',
   },
-};
+}
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="fr" className={`${playfair.variable} ${inter.variable}`}>
+      <body>
+        {children}
+      </body>
     </html>
-  );
+  )
 }
