@@ -148,6 +148,8 @@
   --color-bg-secondary: oklch(0.96 0.012 80);
   --color-accent: oklch(0.74 0.09 74);
   --color-whatsapp: oklch(0.71 0.17 152);
+  --color-text-primary: oklch(0.145 0 0);   /* #1A1A1A */
+  --color-text-muted: oklch(0.48 0 0);       /* #6B6B6B */
 }
 
 /* Register project tokens with Tailwind */
@@ -156,6 +158,8 @@
   --color-bg-secondary: var(--color-bg-secondary);
   --color-accent: var(--color-accent);
   --color-whatsapp: var(--color-whatsapp);
+  --color-text-primary: var(--color-text-primary);
+  --color-text-muted: var(--color-text-muted);
 
   --font-serif: var(--font-playfair), Georgia, serif;
   --font-sans: var(--font-inter), system-ui, sans-serif;
