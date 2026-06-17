@@ -110,5 +110,6 @@ Il vend deux types de produits :
 ## Journal des modifications
 
 | Date | Modification |
-|------|-------------|
+| --- | --- |
 | 2026-06-16 | Initialisation du projet — spec design validée, CONTEXT.md créé |
+| 2026-06-17 | Implémentation complète — 16 tasks, site prêt au déploiement |
