@@ -10,7 +10,7 @@ export function HeroSection() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
         <Image
-          src="/images/hero.jpg"
+          src="/images/bada.jpg"
           alt="Serigne Bada Kemane"
           fill
           className="object-cover object-center"

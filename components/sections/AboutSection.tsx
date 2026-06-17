@@ -23,7 +23,7 @@ export function AboutSection() {
           >
             <div className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-xl">
               <Image
-                src="/images/about.jpg"
+                src="/images/bada2.jpg"
                 alt="Serigne Bada Kemane"
                 fill
                 className="object-cover"
