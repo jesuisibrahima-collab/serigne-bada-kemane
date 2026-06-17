@@ -124,8 +124,15 @@ Il vend deux produits :
 
 - GitHub : <https://github.com/jesuisibrahima-collab/serigne-bada-kemane>
 - Vercel : <https://serigne-bada-kemane.vercel.app>
-- Domaine : serignebadakemane.com (DNS en cours de propagation)
+- Domaine custom : <https://www.serignebadakemane.com> (DNS configuré sur LWS, propagation en cours)
 - CI/CD : chaque `git push main` → déploiement automatique Vercel
+
+### DNS LWS configurés
+
+| Type | Enregistrement | Valeur |
+| ---- | -------------- | ------ |
+| A | `@` | `216.198.79.1` (Vercel) |
+| CNAME | `www` | `ec58ec898278aae2.vercel-dns-017.com.` |
 
 ---
 
@@ -143,3 +150,4 @@ Il vend deux produits :
 | 2026-06-17 | 3 nouvelles pages : /videos, /contact, /a-propos |
 | 2026-06-17 | Déploiement GitHub + Vercel + domaine serignebadakemane.com |
 | 2026-06-17 | SEO complet, favicon SB rouge, sitemap, robots.txt, bouton WhatsApp flottant |
+| 2026-06-17 | DNS LWS configurés (A @ → 216.198.79.1 + CNAME www → Vercel) — propagation en cours |
