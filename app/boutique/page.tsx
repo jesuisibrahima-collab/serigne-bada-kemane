@@ -2,8 +2,14 @@ import type { Metadata } from 'next'
 import { ProductGrid } from '@/components/boutique/ProductGrid'
 
 export const metadata: Metadata = {
-  title: 'Boutique — Serigne Bada Kemane',
-  description: 'Découvrez les produits de Serigne Bada Kemane — produits intimes et produits pour la réussite. Commande directe via WhatsApp.',
+  title: 'Boutique',
+  description: 'Découvrez les produits Trawliss de Serigne Bada Kemane. Commande directe et rapide via WhatsApp.',
+  alternates: { canonical: 'https://www.serignebadakemane.com/boutique' },
+  openGraph: {
+    title: 'Boutique — Serigne Bada Kemane',
+    description: 'Produits Trawliss — Commandez directement via WhatsApp.',
+    images: [{ url: '/images/puissance-sexuel-trawliss.png', alt: 'Produits Trawliss' }],
+  },
 }
 
 export default function BoutiquePage() {

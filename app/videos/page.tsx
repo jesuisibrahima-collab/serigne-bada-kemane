@@ -2,8 +2,14 @@ import type { Metadata } from 'next'
 import { TikTokPageGrid } from '@/components/sections/TikTokPageGrid'
 
 export const metadata: Metadata = {
-  title: 'Vidéos — Serigne Bada Kemane',
-  description: 'Podcasts, chroniques et réactions sur l\'actualité sénégalaise.',
+  title: 'Vidéos',
+  description: "Regardez les podcasts, chroniques et réactions de Serigne Bada Kemane sur l'actualité sénégalaise — politique, people, faits divers.",
+  alternates: { canonical: 'https://www.serignebadakemane.com/videos' },
+  openGraph: {
+    title: 'Vidéos — Serigne Bada Kemane',
+    description: "Podcasts et chroniques sur l'actualité sénégalaise.",
+    images: [{ url: '/images/bada.jpg', alt: 'Serigne Bada Kemane — Vidéos TikTok' }],
+  },
 }
 
 export default function VideosPage() {

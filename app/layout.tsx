@@ -3,6 +3,7 @@ import { Space_Grotesk, DM_Sans } from 'next/font/google'
 import './globals.css'
 import { Navbar } from '@/components/layout/Navbar'
 import { Footer } from '@/components/layout/Footer'
+import { WhatsAppButton } from '@/components/layout/WhatsAppButton'
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
@@ -18,13 +19,57 @@ const dmSans = DM_Sans({
   display: 'swap',
 })
 
+const siteUrl = 'https://www.serignebadakemane.com'
+
 export const metadata: Metadata = {
-  title: 'Serigne Bada Kemane — Influenceur Sénégalais',
-  description: "Découvrez l'univers de Serigne Bada Kemane, influenceur sénégalais. Podcasts, lives, vidéos TikTok sur l'actualité sénégalaise.",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: 'Serigne Bada Kemane — Influenceur & Podcasteur Sénégalais',
+    template: '%s — Serigne Bada Kemane',
+  },
+  description:
+    "Serigne Bada Kemane, influenceur et podcasteur sénégalais. Podcasts, lives et chroniques sur l'actualité sénégalaise — politique, people, faits divers. Suivez-le sur TikTok et Facebook.",
+  keywords: [
+    'Serigne Bada Kemane',
+    'influenceur sénégalais',
+    'podcasteur Sénégal',
+    'actualité sénégalaise',
+    'TikTok Sénégal',
+    'podcast Sénégal',
+    'chroniqueur Sénégal',
+  ],
+  authors: [{ name: 'Serigne Bada Kemane' }],
+  creator: 'Serigne Bada Kemane',
   openGraph: {
-    title: 'Serigne Bada Kemane',
-    description: 'Influenceur sénégalais — Podcasts, Lives & Actualité',
     type: 'website',
+    locale: 'fr_SN',
+    url: siteUrl,
+    siteName: 'Serigne Bada Kemane',
+    title: 'Serigne Bada Kemane — Influenceur & Podcasteur Sénégalais',
+    description:
+      "Podcasts, lives et chroniques sur l'actualité sénégalaise — politique, people, faits divers.",
+    images: [
+      {
+        url: '/images/bada.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Serigne Bada Kemane — Influenceur Sénégalais',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Serigne Bada Kemane — Influenceur & Podcasteur Sénégalais',
+    description: "Podcasts, lives et chroniques sur l'actualité sénégalaise.",
+    images: ['/images/bada.jpg'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true },
+  },
+  alternates: {
+    canonical: siteUrl,
   },
 }
 
@@ -35,6 +80,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
+        <WhatsAppButton />
       </body>
     </html>
   )

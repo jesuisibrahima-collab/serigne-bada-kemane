@@ -1,4 +1,9 @@
+import type { Metadata } from 'next'
 import { HeroSection } from '@/components/sections/HeroSection'
+
+export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.serignebadakemane.com' },
+}
 import { AboutSection } from '@/components/sections/AboutSection'
 import { SocialsSection } from '@/components/sections/SocialsSection'
 import { TikTokSection } from '@/components/sections/TikTokSection'
