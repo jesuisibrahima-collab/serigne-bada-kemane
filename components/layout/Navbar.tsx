@@ -18,6 +18,7 @@ export function Navbar() {
   const links = [
     { href: '/#about', label: 'À propos' },
     { href: '/#videos', label: 'Vidéos' },
+    { href: '/#boutique', label: 'Produits' },
     { href: '/#contact', label: 'Contact' },
   ]
 
