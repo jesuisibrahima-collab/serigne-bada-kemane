@@ -29,7 +29,7 @@ export function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-sm font-medium text-[#C9A96E] uppercase tracking-widest mb-4"
+          className="text-sm font-medium text-[#DC2626] uppercase tracking-widest mb-4"
         >
           Influenceur Sénégalais
         </motion.p>
@@ -38,11 +38,11 @@ export function HeroSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1 }}
-          className="font-serif text-5xl md:text-7xl lg:text-8xl font-bold text-[#1A1A1A] leading-tight mb-6"
+          className="font-display text-5xl md:text-7xl lg:text-8xl font-bold text-[#1A1A1A] leading-tight mb-6"
         >
           Serigne Bada
           <br />
-          <span className="text-[#C9A96E]">Kemane</span>
+          <span className="text-[#DC2626]">Kemane</span>
         </motion.h1>
 
         <motion.p
@@ -51,7 +51,7 @@ export function HeroSection() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-lg md:text-xl text-[#6B6B6B] mb-10 max-w-xl mx-auto"
         >
-          Guide spirituel · Conseiller · Créateur de contenu
+          Influenceur · Podcasteur · Chroniqueur d&apos;actualité
         </motion.p>
 
         <motion.div
@@ -62,7 +62,7 @@ export function HeroSection() {
         >
           <Link
             href="/boutique"
-            className="bg-[#C9A96E] text-white font-medium px-8 py-4 rounded-full hover:bg-[#b8944d] transition-colors text-sm uppercase tracking-wide"
+            className="bg-[#DC2626] text-white font-medium px-8 py-4 rounded-full hover:bg-[#B91C1C] transition-colors text-sm uppercase tracking-wide"
           >
             Découvrir la boutique
           </Link>
@@ -70,7 +70,7 @@ export function HeroSection() {
             href={buildContactWhatsApp()}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-white border border-[#1A1A1A]/20 text-[#1A1A1A] font-medium px-8 py-4 rounded-full hover:border-[#C9A96E] hover:text-[#C9A96E] transition-colors text-sm uppercase tracking-wide"
+            className="bg-white border border-[#1A1A1A]/20 text-[#1A1A1A] font-medium px-8 py-4 rounded-full hover:border-[#DC2626] hover:text-[#DC2626] transition-colors text-sm uppercase tracking-wide"
           >
             Me contacter
           </Link>
@@ -86,9 +86,9 @@ export function HeroSection() {
         <motion.div
           animate={{ y: [0, 8, 0] }}
           transition={{ repeat: Infinity, duration: 1.5 }}
-          className="w-6 h-10 border-2 border-[#C9A96E]/50 rounded-full flex items-start justify-center pt-2"
+          className="w-6 h-10 border-2 border-[#DC2626]/50 rounded-full flex items-start justify-center pt-2"
         >
-          <div className="w-1 h-2 bg-[#C9A96E] rounded-full" />
+          <div className="w-1 h-2 bg-[#DC2626] rounded-full" />
         </motion.div>
       </motion.div>
     </section>

@@ -7,7 +7,7 @@ export function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
-            <p className="font-serif text-white text-lg mb-1">Serigne Bada Kemane</p>
+            <p className="font-display text-white text-lg mb-1">Serigne Bada Kemane</p>
             <p className="text-sm">Influenceur Sénégalais</p>
           </div>
 

@@ -14,8 +14,8 @@ export function ContactSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <p className="text-sm font-medium text-[#C9A96E] uppercase tracking-widest mb-4">Contact</p>
-          <h2 className="font-serif text-4xl md:text-5xl font-bold text-[#1A1A1A] mb-6">
+          <p className="text-sm font-medium text-[#DC2626] uppercase tracking-widest mb-4">Contact</p>
+          <h2 className="font-display text-4xl md:text-5xl font-bold text-[#1A1A1A] mb-6">
             Parlons ensemble
           </h2>
           <p className="text-[#6B6B6B] text-lg mb-12 max-w-xl mx-auto">

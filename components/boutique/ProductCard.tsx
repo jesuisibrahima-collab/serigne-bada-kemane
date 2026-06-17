@@ -38,7 +38,7 @@ export function ProductCard({ product }: ProductCardProps) {
         </p>
 
         <div className="flex items-center justify-between mt-auto">
-          <p className="font-serif text-xl font-bold text-[#C9A96E]">
+          <p className="font-display text-xl font-bold text-[#DC2626]">
             {product.price.toLocaleString('fr-FR')} FCFA
           </p>
           <Link

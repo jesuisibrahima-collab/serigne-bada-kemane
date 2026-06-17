@@ -4,9 +4,9 @@ import Image from 'next/image'
 import { motion } from 'framer-motion'
 
 const stats = [
-  { value: '100K+', label: 'Abonnés Facebook' },
-  { value: '50K+', label: 'Abonnés TikTok' },
-  { value: '5+', label: "Années d'activité" },
+  { value: '500K+', label: 'Abonnés TikTok' },
+  { value: '200K+', label: 'Abonnés Facebook' },
+  { value: '8+', label: "Années d'activité" },
 ]
 
 export function AboutSection() {
@@ -33,9 +33,9 @@ export function AboutSection() {
               />
             </div>
             <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl shadow-lg p-4 text-center">
-              <p className="font-serif text-2xl font-bold text-[#C9A96E]">5+</p>
+              <p className="font-display text-2xl font-bold text-[#DC2626]">8+</p>
               <p className="text-xs text-[#6B6B6B] mt-1">
-                Années<br />d&apos;expérience
+                Années<br />d&apos;activité
               </p>
             </div>
           </motion.div>
@@ -46,24 +46,26 @@ export function AboutSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
           >
-            <p className="text-sm font-medium text-[#C9A96E] uppercase tracking-widest mb-4">À propos</p>
-            <h2 className="font-serif text-4xl md:text-5xl font-bold text-[#1A1A1A] mb-6 leading-tight">
-              Guide, Conseiller<br />& Influenceur
+            <p className="text-sm font-medium text-[#DC2626] uppercase tracking-widest mb-4">À propos</p>
+            <h2 className="font-display text-4xl md:text-5xl font-bold text-[#0D0D0D] mb-6 leading-tight">
+              L&apos;influenceur qui<br />fait l&apos;actualité
             </h2>
             <p className="text-[#6B6B6B] text-lg leading-relaxed mb-4">
-              Serigne Bada Kemane est une figure influente de la communauté sénégalaise.
-              Fort de plusieurs années d&apos;expérience, il accompagne ses clients dans leur
-              quête de bien-être, de réussite et d&apos;épanouissement personnel.
+              Serigne Bada Kemane est l&apos;un des influenceurs les plus suivis du Sénégal.
+              Podcasteur, animateur de lives et créateur de contenu, il couvre chaque jour
+              l&apos;actualité sénégalaise — politique, people, faits divers — avec un regard
+              direct et sans filtre.
             </p>
             <p className="text-[#6B6B6B] leading-relaxed mb-10">
-              Grâce à ses produits soigneusement sélectionnés et ses conseils avisés,
-              il aide des milliers de personnes à transformer leur vie au quotidien.
+              Présent sur TikTok, Facebook et tous les réseaux sociaux, il fédère une
+              communauté de centaines de milliers de personnes autour d&apos;un contenu
+              authentique et percutant.
             </p>
 
             <div className="grid grid-cols-3 gap-6 pt-8 border-t border-[#1A1A1A]/10">
               {stats.map((stat) => (
                 <div key={stat.label} className="text-center">
-                  <p className="font-serif text-2xl font-bold text-[#C9A96E]">{stat.value}</p>
+                  <p className="font-display text-2xl font-bold text-[#DC2626]">{stat.value}</p>
                   <p className="text-xs text-[#6B6B6B] mt-1">{stat.label}</p>
                 </div>
               ))}

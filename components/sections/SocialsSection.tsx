@@ -8,8 +8,8 @@ const socialCards = [
   {
     name: 'Facebook',
     handle: '@serignebadakemane',
-    followers: '100K+ abonnés',
-    description: 'Retrouvez mes publications quotidiennes, conseils et moments de vie sur Facebook.',
+    followers: '200K+ abonnés',
+    description: 'Actualité, débats, lives et réactions en direct — suivez l&apos;info sénégalaise avec Bada.',
     url: socials.facebook,
     color: '#1877F2',
     icon: (
@@ -21,8 +21,8 @@ const socialCards = [
   {
     name: 'TikTok',
     handle: '@serignebadakeman',
-    followers: '50K+ abonnés',
-    description: 'Découvrez mes vidéos conseils, démonstrations de produits et lifestyle sur TikTok.',
+    followers: '500K+ abonnés',
+    description: 'Podcasts, chroniques et vidéos sur l&apos;actualité sénégalaise — politique, people, faits divers.',
     url: socials.tiktok,
     color: '#000000',
     icon: (
@@ -43,8 +43,8 @@ export function SocialsSection() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <p className="text-sm font-medium text-[#C9A96E] uppercase tracking-widest mb-3">Réseaux sociaux</p>
-          <h2 className="font-serif text-4xl md:text-5xl font-bold text-[#1A1A1A]">Me suivre</h2>
+          <p className="text-sm font-medium text-[#DC2626] uppercase tracking-widest mb-3">Réseaux sociaux</p>
+          <h2 className="font-display text-4xl md:text-5xl font-bold text-[#1A1A1A]">Me suivre</h2>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
@@ -69,7 +69,7 @@ export function SocialsSection() {
                     <p className="text-sm text-[#6B6B6B]">{card.handle}</p>
                   </div>
                 </div>
-                <p className="text-2xl font-serif font-bold text-[#C9A96E] mb-2">{card.followers}</p>
+                <p className="text-2xl font-display font-bold text-[#DC2626] mb-2">{card.followers}</p>
                 <p className="text-sm text-[#6B6B6B] leading-relaxed mb-6">{card.description}</p>
                 <span
                   className="inline-block text-sm font-medium px-5 py-2 rounded-full text-white"

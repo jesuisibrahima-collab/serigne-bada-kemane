@@ -130,7 +130,7 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-serif);
+    font-family: var(--font-display);
   }
 }
 
@@ -139,21 +139,22 @@
 /* Override shadcn defaults with project palette */
 :root {
   --background: oklch(0.985 0.003 80);
-  --foreground: oklch(0.145 0 0);
+  --foreground: oklch(0.10 0 0);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
+  --card-foreground: oklch(0.10 0 0);
   --muted: oklch(0.96 0.012 80);
   --muted-foreground: oklch(0.48 0 0);
   --border: oklch(0.93 0.008 80);
   --input: oklch(0.93 0.008 80);
-  --radius: 1rem;
+  --radius: 0.75rem;
 
   /* Project tokens */
   --color-bg-primary: oklch(0.985 0.003 80);
   --color-bg-secondary: oklch(0.96 0.012 80);
-  --color-gold: oklch(0.74 0.09 74);
+  --color-brand: oklch(0.53 0.22 27);        /* #DC2626 rouge média */
+  --color-brand-hover: oklch(0.46 0.20 27);  /* #B91C1C rouge foncé */
   --color-whatsapp: oklch(0.71 0.17 152);
-  --color-text-primary: oklch(0.145 0 0);   /* #1A1A1A */
+  --color-text-primary: oklch(0.10 0 0);     /* #0D0D0D off-black */
   --color-text-muted: oklch(0.48 0 0);       /* #6B6B6B */
 }
 
@@ -161,11 +162,12 @@
 @theme inline {
   --color-bg-primary: var(--color-bg-primary);
   --color-bg-secondary: var(--color-bg-secondary);
-  --color-gold: var(--color-gold);
+  --color-brand: var(--color-brand);
+  --color-brand-hover: var(--color-brand-hover);
   --color-whatsapp: var(--color-whatsapp);
   --color-text-primary: var(--color-text-primary);
   --color-text-muted: var(--color-text-muted);
 
-  --font-serif: var(--font-playfair), Georgia, serif;
-  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-display: var(--font-space-grotesk), 'Space Grotesk', system-ui, sans-serif;
+  --font-sans: var(--font-dm-sans), 'DM Sans', system-ui, sans-serif;
 }

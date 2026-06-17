@@ -20,7 +20,7 @@ export function SearchBar({ value, onChange, placeholder = 'Rechercher un produi
         value={value}
         onChange={(e) => onChange(e.target.value)}
         placeholder={placeholder}
-        className="w-full pl-12 pr-4 py-3 rounded-full border border-[#F5F0EB] bg-white text-[#1A1A1A] placeholder:text-[#6B6B6B] focus:outline-none focus:border-[#C9A96E] transition-colors text-sm"
+        className="w-full pl-12 pr-4 py-3 rounded-full border border-[#F5F0EB] bg-white text-[#1A1A1A] placeholder:text-[#6B6B6B] focus:outline-none focus:border-[#DC2626] transition-colors text-sm"
       />
     </div>
   )

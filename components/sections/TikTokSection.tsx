@@ -46,8 +46,8 @@ export function TikTokSection() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <p className="text-sm font-medium text-[#C9A96E] uppercase tracking-widest mb-3">TikTok</p>
-          <h2 className="font-serif text-4xl md:text-5xl font-bold text-[#1A1A1A] mb-4">Mes dernières vidéos</h2>
+          <p className="text-sm font-medium text-[#DC2626] uppercase tracking-widest mb-3">TikTok</p>
+          <h2 className="font-display text-4xl md:text-5xl font-bold text-[#1A1A1A] mb-4">Mes dernières vidéos</h2>
           <p className="text-[#6B6B6B]">Retrouvez mes conseils et découvertes en vidéo</p>
         </motion.div>
 
@@ -76,7 +76,7 @@ export function TikTokSection() {
             href={socials.tiktok}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-[#1A1A1A] text-white font-medium px-8 py-4 rounded-full hover:bg-[#C9A96E] transition-colors text-sm uppercase tracking-wide"
+            className="inline-block bg-[#1A1A1A] text-white font-medium px-8 py-4 rounded-full hover:bg-[#DC2626] transition-colors text-sm uppercase tracking-wide"
           >
             Voir toutes mes vidéos sur TikTok
           </Link>

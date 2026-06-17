@@ -29,7 +29,7 @@ export function ProductGrid() {
           <p className="text-[#6B6B6B] text-lg">Aucun produit trouvé pour &ldquo;{search}&rdquo;</p>
           <button
             onClick={() => setSearch('')}
-            className="mt-4 text-[#C9A96E] text-sm hover:underline"
+            className="mt-4 text-[#DC2626] text-sm hover:underline"
           >
             Effacer la recherche
           </button>
