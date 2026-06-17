@@ -5,12 +5,12 @@ export interface TikTokVideo {
   caption: string
 }
 
-// ← URLs à remplacer par les vraies vidéos TikTok de Serigne Bada Kemane
 export const tiktokVideos: TikTokVideo[] = [
-  { id: '1', url: 'https://www.tiktok.com/@serignebadakeman/video/7000000000000000001', caption: 'Vidéo 1' },
-  { id: '2', url: 'https://www.tiktok.com/@serignebadakeman/video/7000000000000000002', caption: 'Vidéo 2' },
-  { id: '3', url: 'https://www.tiktok.com/@serignebadakeman/video/7000000000000000003', caption: 'Vidéo 3' },
-  { id: '4', url: 'https://www.tiktok.com/@serignebadakeman/video/7000000000000000004', caption: 'Vidéo 4' },
-  { id: '5', url: 'https://www.tiktok.com/@serignebadakeman/video/7000000000000000005', caption: 'Vidéo 5' },
-  { id: '6', url: 'https://www.tiktok.com/@serignebadakeman/video/7000000000000000006', caption: 'Vidéo 6' },
+  { id: '7652145687559261460', url: 'https://www.tiktok.com/@serignebadakeman/video/7652145687559261460', caption: 'Actualité' },
+  { id: '7652055524451601685', url: 'https://www.tiktok.com/@serignebadakeman/video/7652055524451601685', caption: 'Actualité' },
+  { id: '7650588332338236693', url: 'https://www.tiktok.com/@serignebadakeman/video/7650588332338236693', caption: 'Actualité' },
+  { id: '7649874294050196756', url: 'https://www.tiktok.com/@serignebadakeman/video/7649874294050196756', caption: 'Actualité' },
+  { id: '7649486276323740948', url: 'https://www.tiktok.com/@serignebadakeman/video/7649486276323740948', caption: 'Actualité' },
+  { id: '7648223254590737685', url: 'https://www.tiktok.com/@serignebadakeman/video/7648223254590737685', caption: 'Actualité' },
+  { id: '7646945811066096917', url: 'https://www.tiktok.com/@serignebadakeman/video/7646945811066096917', caption: 'Actualité' },
 ]

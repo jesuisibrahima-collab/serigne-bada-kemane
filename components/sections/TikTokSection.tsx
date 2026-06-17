@@ -48,7 +48,7 @@ export function TikTokSection() {
         >
           <p className="text-sm font-medium text-[#DC2626] uppercase tracking-widest mb-3">TikTok</p>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-[#1A1A1A] mb-4">Mes dernières vidéos</h2>
-          <p className="text-[#6B6B6B]">Retrouvez mes conseils et découvertes en vidéo</p>
+          <p className="text-[#6B6B6B]">Podcasts, chroniques et réactions sur l&apos;actualité sénégalaise</p>
         </motion.div>
 
         <div className="flex gap-6 overflow-x-auto pb-4 md:grid md:grid-cols-2 lg:grid-cols-3 md:overflow-x-visible snap-x snap-mandatory">
