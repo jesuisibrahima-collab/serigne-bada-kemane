@@ -1,5 +1,5 @@
 // lib/socials.ts
-export const WHATSAPP_NUMBER = '221700000000' // ← Remplacer par le vrai numéro
+export const WHATSAPP_NUMBER = '221778293838'
 
 export const socials = {
   facebook: 'https://www.facebook.com/share/1ExAXV9KMe/',
