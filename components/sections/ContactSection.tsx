@@ -33,12 +33,18 @@ export function ContactSection() {
             Me contacter sur WhatsApp
           </Link>
 
-          <div className="flex items-center justify-center gap-8 mt-16 pt-12 border-t border-[#F5F0EB]">
+          <div className="flex flex-wrap items-center justify-center gap-6 mt-16 pt-12 border-t border-[#F5F0EB]">
             <Link href={socials.facebook} target="_blank" rel="noopener noreferrer" className="text-[#6B6B6B] hover:text-[#1877F2] transition-colors text-sm font-medium">
               Facebook
             </Link>
             <Link href={socials.tiktok} target="_blank" rel="noopener noreferrer" className="text-[#6B6B6B] hover:text-[#1A1A1A] transition-colors text-sm font-medium">
               TikTok
+            </Link>
+            <Link href={socials.youtube} target="_blank" rel="noopener noreferrer" className="text-[#6B6B6B] hover:text-[#FF0000] transition-colors text-sm font-medium">
+              YouTube
+            </Link>
+            <Link href={socials.snapchat} target="_blank" rel="noopener noreferrer" className="text-[#6B6B6B] hover:text-[#FFFC00] transition-colors text-sm font-medium">
+              Snapchat
             </Link>
             <Link href={socials.whatsapp} target="_blank" rel="noopener noreferrer" className="text-[#6B6B6B] hover:text-[#25D366] transition-colors text-sm font-medium">
               WhatsApp

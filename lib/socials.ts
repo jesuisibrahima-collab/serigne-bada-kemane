@@ -4,6 +4,8 @@ export const WHATSAPP_NUMBER = '221778293838'
 export const socials = {
   facebook: 'https://www.facebook.com/share/1ExAXV9KMe/',
   tiktok: 'https://www.tiktok.com/@serignebadakeman',
+  youtube: 'https://www.youtube.com/@parlonsvraistv',
+  snapchat: 'https://www.snapchat.com/add/sbadakeman0',
   whatsapp: `https://wa.me/${WHATSAPP_NUMBER}`,
 } as const
 

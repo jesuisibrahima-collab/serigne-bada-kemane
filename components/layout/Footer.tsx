@@ -11,12 +11,18 @@ export function Footer() {
             <p className="text-sm">Influenceur Sénégalais</p>
           </div>
 
-          <div className="flex items-center gap-6 text-sm">
+          <div className="flex flex-wrap items-center gap-6 text-sm">
             <Link href={socials.facebook} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
               Facebook
             </Link>
             <Link href={socials.tiktok} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
               TikTok
+            </Link>
+            <Link href={socials.youtube} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+              YouTube
+            </Link>
+            <Link href={socials.snapchat} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+              Snapchat
             </Link>
             <Link href="/boutique" className="hover:text-white transition-colors">
               Boutique
